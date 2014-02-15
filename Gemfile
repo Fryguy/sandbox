@@ -39,3 +39,4 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 # Testing commit monitor
+# Testing a merge conflict
