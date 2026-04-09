@@ -1,0 +1,26 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "Sandbox",
+  "main": "index.js",
+  "browserslist": [
+    "> 3%",
+    "last 2 versions",
+    "Firefox ESR",
+    "not dead",
+    "not IE 11"
+  ],
+  "scripts": {
+    "lint": "eslint --ext=js,jsx .",
+    "stylelint": "stylelint 'app/**/*css'"
+  },
+  "author": "ManageIQ",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@babel/core": "~7.29.0",
+    "@babel/eslint-parser": "~7.28.0",
+    "@babel/preset-env": "~7.29.0",
+    "eslint": "~7.32.0"
+  },
+  "packageManager": "yarn@4.13.0"
+}
